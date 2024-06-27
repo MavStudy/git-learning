@@ -1,4 +1,6 @@
-def add(a, b):
+# добавил аннотацию типов
+
+def add(a: int, b: int) -> int:
     return a + b
 
 
